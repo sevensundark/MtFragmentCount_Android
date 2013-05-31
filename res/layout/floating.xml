@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"            
+    android:orientation="horizontal">  
+  	 <LinearLayout
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal">
+	     <Button android:id="@+id/addBtn"
+	         android:layout_width="wrap_content"   
+	         android:layout_height="40dip"    
+	         android:layout_weight="0.4"
+	         android:gravity="center"
+	         android:text="增加" />
+	     <Button android:id="@+id/reduceBtn"
+	         android:layout_width="wrap_content"   
+	         android:layout_height="40dip"    
+	         android:layout_weight="0.4"   
+	         android:gravity="center"  
+	         android:text="减少" />
+	</LinearLayout>
+    
+   <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    <LinearLayout
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:orientation="horizontal">
+		     <TextView   
+		         android:layout_width="wrap_content"   
+		         android:layout_height="wrap_content"    
+		         android:layout_weight="0.4"   
+		         android:gravity="left"  
+		         android:textColor="#FFFFFF"
+		         android:text="今日已刷：" />
+		     <TextView android:id="@+id/todayDoneTxtView"
+		         android:layout_width="wrap_content"   
+		         android:layout_height="wrap_content"    
+		         android:layout_weight="0.4"
+		         android:textStyle="bold"   
+		         android:gravity="center"  
+		         android:textColor="#FFFFFF" />
+		</LinearLayout>
+		<LinearLayout
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:orientation="horizontal">
+		     <TextView   
+		         android:layout_width="wrap_content"   
+		         android:layout_height="wrap_content"    
+		         android:layout_weight="0.4"   
+		         android:gravity="left"  
+		         android:textColor="#FFFFFF"
+		         android:text="距碎片回数：" />
+		     <TextView android:id="@+id/nextLeftTxtView"
+		         android:layout_width="wrap_content"   
+		         android:layout_height="wrap_content"    
+		         android:layout_weight="0.4"   
+		         android:gravity="center"
+		         android:textStyle="bold"  
+		         android:textColor="#FF0000" />
+		</LinearLayout>
+		<TextView android:id="@+id/userTextView"
+	         android:layout_width="wrap_content"   
+	         android:layout_height="wrap_content"    
+	         android:layout_weight="0.4"   
+	         android:gravity="center"  
+	         android:textStyle="bold"  
+	         android:textColor="#FF0000" />
+	 </LinearLayout>
+
+</LinearLayout>  
